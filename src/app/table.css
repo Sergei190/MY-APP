@@ -1,0 +1,22 @@
+.table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .table {
+    display: grid;
+    grid-template-columns: repeat(15, minmax(0, 1fr));
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    padding: 8px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: grab;
+  }
+  
+  th:active {
+    cursor: grabbing;
+  }
+  
